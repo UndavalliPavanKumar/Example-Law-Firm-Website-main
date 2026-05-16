@@ -13,7 +13,7 @@ function About() {
           <p className="text-sm uppercase tracking-[0.35em] text-accent">About Us</p>
           <h1 className="text-4xl font-semibold text-white sm:text-5xl">A law firm built for modern leaders.</h1>
           <p className="max-w-3xl text-lg leading-8 text-slate-300">
-            Aurelius Law blends traditional courtroom expertise with forward-thinking legal strategy. Our team supports entrepreneurs, families, and established enterprises through every legal challenge.
+            KVR Legal Services blends traditional courtroom expertise with forward-thinking legal strategy. Our team supports entrepreneurs, families, and established enterprises through every legal challenge.
           </p>
         </motion.div>
 

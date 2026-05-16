@@ -12,7 +12,7 @@ function VideoSection() {
         <iframe
           title="Founder introduction"
           className="aspect-video w-full"
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          src="https://www.youtube.com/embed/S7o-M9-V810"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         />

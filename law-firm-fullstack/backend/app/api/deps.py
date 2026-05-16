@@ -4,6 +4,7 @@ from jose import JWTError
 
 from app.core.config import settings
 from app.core.security import decode_access_token
+from app.db.session import get_db
 
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl=f"{settings.API_V1_STR}/auth/login")
