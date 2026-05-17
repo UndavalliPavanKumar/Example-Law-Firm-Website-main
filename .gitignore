@@ -1,0 +1,30 @@
+# Common Node / React ignore files
+node_modules/
+dist/
+build/
+.env.local
+.DS_Store
+
+# Common Python ignore files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+
+# Local databases
+*.db
+*.sqlite3
+
+# Docker local overrides
+docker-compose.override.yml
+**/.env
+!.env.example
+
+# Untracked workspace utilities
+Example/
+fly-bin/
+flyctl.zip
+.vite/
