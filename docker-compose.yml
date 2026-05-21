@@ -33,11 +33,18 @@ services:
       dockerfile: Dockerfile
     container_name: lawfirm-frontend
     ports:
-      - '4173:4173'
+      - '80:80'
     depends_on:
       - backend
     environment:
-      VITE_API_URL: http://localhost:8000/api/v1
+      VITE_API_URL: /api/v1
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: lawfirm-tunnel
+    command: tunnel --url http://frontend:80
+    depends_on:
+      - frontend
 
 volumes:
   db_data:

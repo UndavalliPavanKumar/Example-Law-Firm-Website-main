@@ -28,3 +28,5 @@ Example/
 fly-bin/
 flyctl.zip
 .vite/
+
+cloudflared.exe
